@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Light Test Suite">
+    <test name="Database Test">
+        <classes>
+            <class name="dk.developer.database.MemoryDatabaseTest"/>
+        </classes>
+    </test>
+</suite>
