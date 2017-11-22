@@ -12,7 +12,7 @@ public class DatabaseProvider {
     }
 
     public static void useProductionDatabase() {
-        MongoClient client = new MongoClient("127.0.0.1");
+        MongoClient client = new MongoClient("mongo");
         MongoDatabase mongoDatabase = client.getDatabase("database");
         database = new PersistedDatabase(mongoDatabase);
     }
